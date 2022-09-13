@@ -48,6 +48,12 @@ my-project $ blade gw distBundleTar
 my-project $ blade gw distBundleZip
 ```
 
+### Creating multiple bundles
+```
+my-project $ blade gw distBundleTarAll
+my-project $ blade gw distBundleZipAll
+```
+
 ### Creating a docker image
 ```
 my-project $ blade gw buildDockerImage
@@ -135,6 +141,10 @@ You can organize environment settings and generate an environment installation
 with those settings. There are five environments: common, dev, docker, local,
 prod, and uat. The default value is `local`.
 
+#### liferay.workspace.bundle.dist.include.metadata
+Set this to true to append metadata for the current environment settings and
+timestamp. The default value is `false`.
+
 #### liferay.workspace.ext.dir
 Set the folder that contains all Ext OSGi modules and Ext plugins. The default
 value is `ext`.
@@ -170,6 +180,10 @@ Set the folder that contains Node.js-style theme projects. The default value is
 #### liferay.workspace.themes.java.build
 Set this to true to build the theme projects using the Liferay Portal Tools
 Theme Builder. The default value is `false`.
+
+#### liferay.workspace.wars.dir
+Set the folder that contains all legacy WAR projects. Set to `*` to search all
+subdirectories. The default value is `modules`.
 
 #### microsoft.translator.subscription.key
 Set the subscription key for Microsoft Translation integration. This is service

@@ -8,7 +8,7 @@
 				"/": ">=4.0.0"
 			},
 			"frontend-js-web": {
-				"/": ">=3.0.0"
+				"/": ">=5.0.0"
 			},
 			"frontend-taglib-clay": {
 				"@clayui/icon": ">=3.1.0",

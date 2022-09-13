@@ -1,1 +1,11 @@
-// Check GETTING_STARTED.markdown for information regarding usage.
+allprojects {
+    plugins.withId("com.liferay.node") {
+        afterEvaluate {
+            node.download = true
+            node.nodeVersion = "12.20.2"
+            node.npmVersion = "6.14.11"
+            node.yarnVersion = "1.22.5"
+            node.nodeUrl = node.nodeUrl.replace("http:", "https:")
+        }
+    }
+}

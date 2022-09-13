@@ -18,7 +18,7 @@
 		"liferay-frontend-css-common": "6.0.0",
 		"liferay-frontend-theme-styled": "6.0.2",
 		"liferay-frontend-theme-unstyled": "6.0.2",
-		"liferay-theme-tasks": "^10.5.0",
+		"liferay-theme-tasks": "^10.5.3",
 		"liferay-font-awesome": "3.4.0"
 	},
 	"scripts": {

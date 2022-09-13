@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "modules/commerce-frontend-taglib-custom",
+            "themes/custom-speed-well-theme",
+            "themes/my-liferay-theme"
+        ]
+    }
+}
